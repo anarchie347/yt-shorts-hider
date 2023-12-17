@@ -1,0 +1,19 @@
+{
+    "manifest_version": 2,
+    "name": "YT shorts hider",
+    "version": "1.0",
+    "permissions": [
+        "activeTab",
+        "storage"
+    ],
+    "content_scripts": [
+        {
+            "matches": [
+                "*://www.youtube.com/*"
+            ],
+            "js": [
+                "removeShorts.js"
+            ]
+        }
+    ]
+}
