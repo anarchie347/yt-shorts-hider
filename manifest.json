@@ -3,9 +3,13 @@
     "name": "YT shorts hider",
     "version": "1.0",
     "description": "removes YT shorts from suggestions",
+    "browser_specific_settings": {
+        "gecko": {
+            "id": "noshorts@example.com"
+        }
+    },
     "permissions": [
-        "activeTab",
-        "storage"
+        "activeTab"
     ],
     "content_scripts": [
         {
@@ -13,7 +17,7 @@
                 "*://www.youtube.com/*"
             ],
             "js": [
-                "removeShorts.js"
+                "remove-shorts.js"
             ]
         }
     ]
