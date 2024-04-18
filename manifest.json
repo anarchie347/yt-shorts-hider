@@ -5,7 +5,7 @@
     "description": "removes YT shorts from suggestions",
     "browser_specific_settings": {
         "gecko": {
-            "id": "noshorts@example.com"
+            "id": "{9fe508bb-0458-4fb3-9e23-ed57bd1dfdd1}"
         }
     },
     "permissions": [
